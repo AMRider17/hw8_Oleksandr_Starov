@@ -1,0 +1,170 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 58%;
+}
+
+.wrapper,
+.primary {
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header, .work {
+    background-color: #eeeff1;
+}
+
+.about {
+    background-color: #F9F9F9;
+}
+
+.header {
+    padding: 79px 0 141px;
+}
+
+.menu-wrap {
+    margin-bottom: 16.5%;
+}
+
+.menu {
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu>.menu__item {
+    display: inline-block;
+    margin-right: 3.8%;
+}
+
+.menu>.menu__item>.menu__link, .hero__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.menu>.menu__item>.menu__link--current {
+    color: #34547A;
+}
+
+.menu>.menu__item>.menu__link:hover {
+    color: #ff6600;
+}
+
+.hero__title {
+    font-size: 3rem;
+    margin-bottom: 6%;
+    font-weight: 500;
+}
+
+.hero__text {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 6.4%;
+    font-weight: 200;
+}
+
+.hero__btn {
+    display: inline-block;
+    padding: 20px 41px;
+    background: #34547A;
+    transition: all .8s;
+}
+
+.hero__btn:hover {
+    background: #ff6600;
+    transition: all .8s;
+}
+
+.btn {
+    color: #FFFFFF;
+}
+
+.primary, .work__text {
+    width: 49%;
+    color: #727272;
+}
+
+.about__title,
+.work__title  {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10.18%;
+    margin-bottom: 4.5%;
+}
+
+.about__text,
+.video {
+    margin-bottom: 9%;
+}
+
+.about>.wrapper,
+.work>.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects {
+    padding: 4.5%;
+    margin: 0 auto;
+}
+
+.projects,
+.footer {
+    background: #34547A;
+}
+
+.projects__wrap,
+.projects__item,
+.projects__description {
+    display: flex;
+}
+
+.projects__wrap,
+.projects__description {
+    justify-content: space-between;
+}
+
+.projects__description {
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.projects__title, .projects__text {
+    color: white;
+    padding-top: 5%;
+}
+
+.video {
+    margin: 0 auto;
+    width: 100%;
+    height: 630px;
+    margin: 6% 0%;
+}
+
+.work__title {
+    margin-top: 9%;
+}
+
+/* FOOTER */
+.footer {
+    padding: 2%;
+    color: #EEEFF1;
+}
+
+.footer__info {
+    font-size: 0.7rem;
+}
+
+.player {
+    position: absolute;
+    z-index: 99;
+    left: 48.33%;
+    top: 110%;
+}
